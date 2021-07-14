@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Clock and timer</title>
+
+    <style>
+        * {
+            margin: 0;
+        }
+
+        div {
+            line-height: 20vh;
+            text-align: center;
+            font-size: 50px;
+            font-family: arial;
+        }
+
+        span {
+            font-weight: bold;
+            font-family: monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="clock">Godzina teraz: <span></span></div>
+    <div class="timer">
+        Do końca roku zostało:
+
+        <span id="d"></span>
+        <span id="h"></span>
+        <span id="m"></span>
+        <span id="s"></span>
+    </div>
+
+    <div>
+        <button class="main">Start</button>
+        <button class="reset">Reset</button>
+    </div>
+    <div class="timer2">
+        <p>Sekundy od startu:</p>
+        <div>---</div>
+    </div>
+
+    <script src="main.js">
+
+    </script>
+</body>
+
+</html>
